@@ -1,6 +1,6 @@
 <p align="center"><img src="https://github.com/tranbaokhue/NP_InteractionReps_Official/blob/86895e6b609452666c34ac4ee143e6c9455f7eea/Literature/Github%20Banner.png"></p>
 
-<h2 align="center">Nonparametric Tests for Interaction in Two-way Layout with Replications<br>
+<h2 align="center">New Nonparametric Tests for Interaction in Two-way Layout with Replications<br>
 🧮📙🎏📊🖥️ </h2>
 <p align="center">A repository for R codes and research on the two new aligned rank-based test statistics APCSSA and APCSSM. </p>
 
