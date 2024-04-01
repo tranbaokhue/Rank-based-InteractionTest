@@ -4,5 +4,13 @@
 🧮📙🎏📊🖥️ </h2>
 <p align="center">A repository for R codes and research on the two new aligned rank-based test statistics APCSSA and APCSSM. </p>
 
-## About
-The two test statistics were developed by Amy Wagaman (Amherst College) and Bradley Hartlaub (Kenyon College) to test for interaction effects in general two-way layouts with balanced replications per cell. These new nonparametric procedures are **APCSSA** and **APCSSM**, where *APC* is the abbreviation for "All Possible Comparisons" and *A* and *M* corresponds with "Average" and "Median" for the alignment method. Since these are new tests, we are researching their null distributions, conducting power studies to see their performance against the traditional F-test and several other well-known nonparametric tests, and creating R codes that will hopefully make the tests more accessible.
+## About the tests
+The two test statistics were developed by Amy Wagaman (Amherst College) and Bradley Hartlaub (Kenyon College) to test for interaction effects in general two-way layouts with balanced replications per cell. These new nonparametric procedures are **APCSSA** and **APCSSM**, where *APC* is the abbreviation for "All Possible Comparisons" and *A* and *M* corresponds with "Average" and "Median" for the alignment method. 
+
+## Repository table of content
+In this repository, we provide the following:
+- Codes for the interaction tests APCSSA and APCSSM
+- Codes to generate null distributions and find critical values for settings with over 6 levels in a factor
+- For all settings with 2 to 6 levels in each main factors and the number of replications per cell ranging from 1 to 5:
+    - Null distributions for both tests  using Monte Carlo simulation
+    - Expected values, variances as well as critical values for both tests
