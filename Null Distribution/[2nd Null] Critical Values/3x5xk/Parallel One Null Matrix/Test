@@ -1,0 +1,2 @@
+The Null Distributions in this folder are those where APCSSA and APCSSM critical values are generated based on the same set of null dataframes. 
+We can relatively see the dependence in the values so it might be better to generate a set of null dataframes for each test statistics
