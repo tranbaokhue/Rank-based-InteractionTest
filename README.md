@@ -14,3 +14,6 @@ In this repository, we provide the following:
 
 ## About the tests
 The two test statistics were developed by Amy Wagaman (Amherst College) and Bradley Hartlaub (Kenyon College) to test for interaction effects in general two-way layouts with balanced replications per cell. These nonparametric procedures are **APCSSA** and **APCSSM**, where *APC* is the abbreviation for "All Possible Comparisons" and *A* and *M* corresponds with "Average" and "Median" for the alignment method. 
+
+## Acknowledgements
+This work would not have been done without the dedication of Professor Amy Wagaman (Amherst College) and Professor Bradley Hartlaub (Kenyon College), and the contribution from their undergraduate collaborators: Khue Tran (Kenyon College), Andrew Nguyen (UNC Chapel Hill), Dahyun (Jessica) Jeong (Amherst College), and David Jacobson (Amherst College).
