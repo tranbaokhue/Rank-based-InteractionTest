@@ -5,16 +5,18 @@ library(parallel)
 library(foreach)
 library(doParallel)
 
+# Code notification with Alertzy to alert when simulations finish
 url <- "https://alertzy.app/send"
 res <- httr::handle(url)
 config(res, ssl_verifypeer = TRUE)
-key<-"m4gpvv4g0e2dt4p"
+key<-# Insert your user key on your preferable device to get direct notifications
+  # when the null simulations finish
 
 ## Replace AixBjxK for settings and NumReps for the number of replications per cell ##
 
 # Null Distribution Mean & Variance ----
 ## 250k Sim ----
-tic("Null AixBjxK_250k Sim")  
+tic("Null AixBjxK_250k Sim")  # This is to record how long the code runs
 #### Null Matrices ----
 cl <- parallel::makeCluster(detectCores()-1)
 registerDoParallel(cl)
@@ -57,6 +59,7 @@ save(Time_Null1_250k, file="Time Elapsed for Null 1_AixBjxK_250k Sim.RData")
 POST(url, body = list(accountKey = key, 
                       title = "Null Mean & Var for AixBjxK is Done", 
                       message = "Comp, 250k"), encode = "form", handle = res)
+# The POST function notify the chunk above has finished running
 
 APCSSnullDist_AixBjxK<-NULL
 
@@ -353,6 +356,9 @@ POST(url, body = list(accountKey = key,
                       message = "Comp, 50k Sim"), encode = "form", handle = res)
 
 # Critical Values ----
+## If the critical values attained has a higher p-value than alpha level,
+## we will increase a till the attained significance is less than alpha.
+
 a <-quantile(nullDistAPCSSA, 0.95)
 sum(nullDistAPCSSA>= a )/length(nullDistAPCSSA)
 a
