@@ -2,9 +2,8 @@
 ## second contains the break-down of factor A (i of them);
 ## third contains the break-down of factor B (j of them); 
 
-# The only difference between this file and AllTestsWithReps is 
-# this one does not include the NullDist functions since those will be ran
-# paralleled.
+# This file contains the core codes to run different tests for interaction
+# in a balanced two-way ANOVA
 
 ######## APCSSA/APCSSM ########
 ## APC CRA ----
