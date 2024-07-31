@@ -2,7 +2,7 @@
 
 <h2 align="center">Nonparametric Tests for Interaction in Two-way Layout with Replications<br>
  </h2>
-<p align="center">A repository for R codes and the null distributions of the two aligned rank-based test statistics APCSSA and APCSSM. </p>
+<p align="center">R codes and null distributions of aligned rank-based test statistics APCSSA and APCSSM. </p>
 
 ## Table of contents
 ```
