@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/tranbaokhue/NP_InteractionReps_Official/blob/86895e6b609452666c34ac4ee143e6c9455f7eea/Literature/Github%20Banner.png"></p>
+<p align="center"><img src="https://github.com/tranbaokhue/Rank-based-InteractionTest/blob/main/ArticleFigures/Banner.png"></p>
 
 <h2 align="center">Nonparametric Tests for Interaction in Two-way Layout with Replications<br>
  </h2>
